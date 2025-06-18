@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Folio Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Folio
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <!-- Swiper CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <!-- Uncomment below if you prefer to use an text logo -->
+      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">메인 화면</a></li>
+          <li><a class="nav-link  scrollto" href="bookline.html">내 서재</a></li>
+          <li><a class="nav-link  scrollto" href="note.html">독서 노트</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  
+
+  <div id="hero" class="home">
+    <div class="center-wrapper">
+      <div class="rounded-box">
+        <!-- Swiper 배너 시작 -->
+         
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide" style="background-image: url('assets/img/book/banner1.jpg');">
+              <div class="slide-overlay">
+                <h2>문장에 닿다</h2>
+                <p>독서 노트 오픈! 다른 사람의 감상을 구경해 볼까요?</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url('assets/img/book/banner2.jpg');">
+              <div class="slide-overlay">
+                <h2>문장을 써내리다</h2>
+                <p>내 감상을 기록해 소중한 추억을 쌓아가요</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide" style="background-image: url('assets/img/book/banner3.jpg');">
+              <div class="slide-overlay">
+                <h2>문장을 쌓다</h2>
+                <p>마음을 울리는 문장을 내 서재에 담아봐요</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- Swiper 컨트롤 요소들 필요시 추가 -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about-title">
+      <h1>오늘 한 문장</h1>
+      <p>한 달 동안 사람들이 사랑한 문장을 소개해요</p>
+    </section>
+    
+    <div id="about" class="paddsection">
+      <div class="container">
+        <div class="row justify-content-between">
+    
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <a href="book.html" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/img/book/blue.jpg" class="img-responsive" alt="me">
+                </a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-7">
+            <div class="about-descr">
+    
+              <p class="p-heading">좌절이나 시련, 슬픔, 당신도 알고 있는 모든 단어들이<br>모두 다 천 개의 파랑이었다. </p>
+              <p class="separator">품명으로 불리던 한 휴머노이드가 브로콜리의 색과 닮아 콜리라는 이름을 얻기까지의 여정. 이 소설은 오직 로봇에만 재능과 관심이 있는 소녀 연재와 하늘의 아름다움과 말의 고됨을 알아챌 줄 아는 모자란 휴머노이드 기수 콜리, 더는 시속 100km로 달릴 수 없게 관절이 마모된 말과 소아마비로 인해 걷지 못하게 된 연재의 언니 은혜 등, 제 속도로만 움직일 수 있는 이들이 부드럽게 어우러져 만들어내는 빛에 관한 이야기이다.</p>
+              <p class="separator2">&lt;천 개의 파랑&gt; - 천선란</p>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <div id="services">
+      <div class="container">
+        <h2 class="services-subtitle">오늘 두 문장</h2> 
+        <p class="description">그 밖에도 이런 책들이 많은 사람들에게 사랑받았어요</p>
+
+        <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                
+                <img src="assets/img/book/book1.jpg" alt="UI/UX Icon" class="services-icon">
+                <span>아몬드</span>
+                <p class="separator">너무 멀리 있는 불행은 내 불행이 아니라고, 엄마는 그렇게 말했었다. </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/book/book2.jpg" alt="UI/UX Icon" class="services-icon">
+                <span>변신</span>
+                <p class="separator">어느 날 아침, 그레고르 잠자가 불안한 꿈에서 깨어났을 때, 그는 침대에서 흉측한 벌레로 변해 있는 자신을 발견했다.</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/book/book3.jpg" alt="UI/UX Icon" class="services-icon">
+                <span>멋진 신세계</span>
+                <p class="separator">아. 이 멋진 인간들이여! 이 얼마나 아름다운 인간들인가! 오, 멋진 신세계여...</p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/book/book4.jpg" alt="UI/UX Icon" class="services-icon">
+                <span>소년이 온다</span>
+                <p class="separator">당신이 죽은 뒤 장례식을 치르지 못해 내 삶이 장례식이 되었습니다. </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/book/book5.jpg" alt="UI/UX Icon" class="services-icon">
+                <span>파과</span>
+                <p class="separator">살아 있는 모든 것이 농익은 과일이나 밤하늘에 쏘아올린 불꽃처럼 부서져 사라지기 때문에 유달리 빛나는 순간을 한 번쯤은 갖게 되는지도 모른다. </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/book/book6.jpg" alt="UI/UX Icon" class="services-icon">
+                <span>싯다르타</span>
+                <p class="separator">지식은 전해줄 수 있지만, 지혜는 전해줄 수 없어. 지혜란 사람들이 스스로 발견하는 거야.</p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </div><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <div id="portfolio" class="paddsection">
+
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>오늘의 서재</h2>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">전체</li>
+              <li data-filter=".filter-app">세계문학</li>
+              <li data-filter=".filter-card">한국문학</li>
+              <li data-filter=".filter-web">현대소설</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/book/book7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>동물농장</h4>
+              <p>모든 동물은 평등하지만 <br>어떤 동물은 다른 동물보다 더 평등하다.</p>
+              <a href="assets/img/book/book7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;동물농장&gt; - 조지 오웰"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/book/book8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>화씨 451</h4>
+              <p>불태우는 일은 즐겁다.</p>
+              <a href="assets/img/book/book8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;화씨 451&gt; - 레이 브래드버리"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/book/book9.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>인간실격</h4>
+              <p>저는 인간의 삶이라는 것을<br>도무지 이해할 수 없습니다.</p>
+              <a href="assets/img/book/book9.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;인간실격&gt; - 다자이 오사무"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/book/book10.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>날개</h4>
+              <p>박제가 되어버린 천재를 아시오?</p>
+              <a href="assets/img/book/book10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;날개&gt; - 이상"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/book/book11.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>위대한 개츠비</h4>
+              <p>우리는 이렇게 앞으로 나아가지만,<br>결국 끝없이 과거로 떠밀려간다.</p>
+              <a href="assets/img/book/book11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;위대한 개츠비&gt; - F.스콧 피츠제럴드"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/book/book12.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>구의 증명</h4>
+              <p>만약 네가 먼저 죽는다면<br>나는 너를 먹을 거야.</p>
+              <a href="assets/img/book/book12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;구의 증명&gt; - 최진영"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/book/book13.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>유예</h4>
+              <p>흰 눈이다.<br>햇볕이 따스히 눈 위에 부서진다.</p>
+              <a href="assets/img/book/book13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;유예&gt; - 오상원"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/book/book14.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>파친코</h4>
+              <p>역사는 우리를 저버렸지만,<br>그래도 상관 없다.</p>
+              <a href="assets/img/book/book14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="&lt;파친코&gt; - 이민진"><i class="bx bx-plus"></i></a>
+              <a href="book.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="bookline.html" class="btn btn-rounded">더 많은 책 보러가기</a>
+      </div>
+
+    </div><!-- End Portfolio Section -->
+
+    <!-- ======= Journal Section ======= -->
+    <div id="journal" class="text-left paddsection">
+
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>독서 노트</h2>
+          <p>사람들과 생각을 공유해요</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="journal-block">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+                <a href="note.html">
+                  <div class="journal-box">
+                    <div class="blur-bg" style="background-image: url('assets/img/book/book15.jpg');"></div>
+                    <div class="journal-overlay-text">
+                      <h4>은하수를 여행하는<br>히치하이커를 위한 안내서</h4>
+                      <p>"히치하이커 시리즈는 단 두 마디 말로 요약된다. 독창적이고 우습다는 것." 
+                        다시 놓치기 아까운, 유쾌한 소설이다. '아무도 어딘가에 못박히지 않고도' 
+                        어떻게 하면 이 세상이 멋지고 행복한 곳이 될 수 있는지에 대한 멋진 대답.
+                      <br><br>- 생각하는 사람 -</p>
+
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+                <a href="note.html">
+                  <div class="journal-box">
+                    <div class="blur-bg" style="background-image: url('assets/img/book/book16.jpg');"></div>
+                    <div class="journal-overlay-text">
+                      <h4>고래눈이 내리다</h4>
+                      <p><br>낯선 세계의 경이, 거기엔 오래 기다린 당신이 있다
+                        버려짐으로써 쓸모를 찾고 떠남으로써 재회하는 정교한 아이러니
+                        우리의 끝, 혹은 새로운 시작의 예감
+                      <br><br><br>- 책 먹는 여우 -</p>
+
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+                <a href="note.html">
+                  <div class="journal-box">
+                    <div class="blur-bg" style="background-image: url('assets/img/book/book17.jpg');"></div>
+                    <div class="journal-overlay-text">
+                      <h4>바움가트너</h4>
+                      <p><br>이것은 삶을 가득 채우는 부재와 지속되는 상실의 기록이다. 당연한 슬픔이 있지만, 단지 슬픔만이 있는 것은 아니다. 
+                        그 상실 속에서도 바움가트너는, 그리고 오스터는 상상력의 힘, 
+                        아니, 그냥 간단하게, 꿈의 힘 을 발견한다. 허구이지만 진실보다 더 강력한 그 무엇을. <br>- 종이로 지은 집 -</p>
+
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Journal Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <div id="contact" class="paddsection">
+      <div class="container">
+        <div class="contact-block1">
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="contact-contact">
+
+                <h2 class="mb-30">소중한 목소리를 남겨주세요</h2>
+
+                <ul class="contact-details">
+                  <li><span>문제점과 불편사항을 접수해주시면 큰 도움이 돼요</span></li>
+                  <br>
+                  <li><span>경기도 안성시 대덕면 서동대로 4726</span></li>
+                  <li><span>+82 031-670-3114</span></li>
+                  <li><span>jo0411s@cau.ac.kr</span></li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row gy-3">
+
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="이름" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="이메일 주소" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="내용 작성" required></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="loading">로딩...</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">성공적으로 접수 되었습니다.</div>
+                  </div>
+
+                  <div class="mt-0">
+                    <input type="submit" class="btn btn-defeault btn-send" value="접수하기">
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+
+    </div>
+  </div><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper 초기화 스크립트 -->
+  <script>
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  });
+  </script>
+</body>
+
+</html>
